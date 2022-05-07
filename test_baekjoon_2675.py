@@ -12,4 +12,4 @@ def sr_rp(s):
   
 # 테스트코드
 def test_sr_rp():
-    assert sr_rp('5 /HTP') == '///HHHHHTTTTTPPPPP'
+    assert sr_rp('5 /HTP') == '/////HHHHHTTTTTPPPPP'
