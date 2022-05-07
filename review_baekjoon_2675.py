@@ -7,6 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1ztZRoX2Ij4ajyhWLvPRTtyBTDtL0t-52
 """
 
+# review_baekjoon_2675.py
 '''
 # [0] 테스트 케이스의 개수 입력 및 문자열 입력
 T      = int(input())
@@ -21,7 +22,7 @@ for i in String:
 
 def sr_rp(s):
     String = s
-    n, String = s.split()
+    n, String = String.split()
 
 
     for i in String:
