@@ -1,16 +1,10 @@
 # test_capitalize.py
 
-def sr_rp(s):
-    result = ''
-    String = s
-    n, String = String.split()
-
-
-    for i in String:
-        for _ in range(int(n)):
-            result += i 
-    return result
+def capitalize_string(s):
+    if not isinstance(s, str):
+        raise TypeError('Please provide a string')
+    return s.capitalize()
 
 # 테스트코드
-def test_sr_rp():
-    assert sr_rp('5 /HTP') == '/////HHHHHTTTTTPPPPP'
+def test_capitalize_string():
+    assert capitalize_string('test') == 'Test'
