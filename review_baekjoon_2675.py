@@ -21,14 +21,15 @@ for i in String:
 '''
 
 def sr_rp(s):
+    result = ''
     String = s
     n, String = String.split()
 
 
     for i in String:
         for _ in range(int(n)):
-            print(i, end = "") 
-    print('')
+            result += i 
+    return result
 
 # T      = int(input())
 # for _ in range(T):
