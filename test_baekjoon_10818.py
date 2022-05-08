@@ -24,4 +24,4 @@ def minnmax(s,num):
     return min, max
 
 def test_minnmax():
-    assert minnmax('20 10 35 30 7',5) == 7, 35
+    assert minnmax('20 10 35 30 7',5) == 7 & 35
