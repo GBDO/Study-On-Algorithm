@@ -15,7 +15,7 @@ def sort_num(num, inp):
             pass
     ls.sort()
     result = ''
-    for i in range(len(ls))
+    for i in range(len(ls)):
         result += ls[i]+' '
         if i == len(ls) - 1:
             result += ls[i]
