@@ -16,9 +16,9 @@ def sort_num(num, inp):
     ls.sort()
     result = ''
     for i in range(len(ls)):
-        result += ls[i]+' '
+        result += str(ls[i])+' '
         if i == len(ls) - 1:
-            result += ls[i]
+            result += str(ls[i])
     return result
 
 def test_sort_num():
