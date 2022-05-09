@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1mwPe1falDK9nn5Px24qe-wcsxw-32DlY
 """
 
-def sort_num(num, inp)
+def sort_num(num, inp):
     ls = [0]*num
     for i, n in zip(range(num),inp):
         ls[i] = int(n)
