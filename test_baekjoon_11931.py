@@ -8,7 +8,7 @@ Original file is located at
 """
 
 import sys
-def sort_num(n, input)
+def sort_num(n, input):
     num = int(n)
     ls = [0] * num 
     for i in input:
