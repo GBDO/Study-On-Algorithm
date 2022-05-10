@@ -11,9 +11,9 @@ import sys
 def sort_num(n, input):
     num = int(n)
     ls = [0] * num 
-    for i in input:
+    for k ,i in zip(range(num),input):
         tn = int(i)
-        ls[i] = tn
+        ls[k] = tn
     ls.sort(reverse = True)
     return ls
 def test_sort_num():
