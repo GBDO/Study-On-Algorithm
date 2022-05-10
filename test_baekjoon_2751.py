@@ -14,5 +14,5 @@ def sort_num(n,target):
     target.sort()
     return target
 
-def test_sort_num()
+def test_sort_num():
     assert sort_num(5,[5,4,3,2,1]) == [1,2,3,4,5]
