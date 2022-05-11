@@ -18,5 +18,5 @@ def sort_inside(num):
     for k in range(len(num)):
         result += str(ls[k])
     print(result)
-def test_sort_inside:
+def test_sort_inside():
     assert sort_inside('2143') == '4321'
