@@ -9,7 +9,6 @@ Original file is located at
 
 import sys
 def sort_inside(num):
-    num = num
     ls = [0] * len(num)
     for i in range(len(num)):
         ls[i] = num[i]
