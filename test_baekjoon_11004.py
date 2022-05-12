@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1aNT_Ovhu8GjgVzytFo5E1jv0MSsu90R0
 """
 
-def num_pick(n, k):
+def numpick(n, k):
     num, tn = map(int,n.split())
     ls = [0] * num
     for i, t in zip(range(num),map(int, k.split())):
@@ -15,5 +15,5 @@ def num_pick(n, k):
     ls.sort()
     return ls[tn-1]
 
-def test_num_pick():
-    assert num_pick('5 2','4 1 2 3 5') == 2
+def test_numpick():
+    assert numpick('5 2','4 1 2 3 5') == 2
