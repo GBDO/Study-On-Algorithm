@@ -16,4 +16,4 @@ def num_pick(n, k):
     return ls[tn-1]
 
 def test_num_pick():
-    num_pick('5 2','4 1 2 3 5') == 2
+    assert num_pick('5 2','4 1 2 3 5') == 2
