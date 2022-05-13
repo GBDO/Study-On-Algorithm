@@ -22,4 +22,4 @@ def scorea(num,lss):
         return (f'Class {int(i)+1}',f'Max {fst}, Min {lst}, Largest gap {sst}')
 
 def test_scorea():
-    assert scorea(2,['5 30 25 76 23 78','6 25 50 70 99 70 90']) == (('Class 1', 'Max 78, Min 23, Largest gap 46'), ('Class 2', 'Max 99, Min 25, Largest gap 25'))
+    assert scorea(2,['5 30 25 76 23 78','6 25 50 70 99 70 90']) == 'Class 1', 'Max 78, Min 23, Largest gap 46', 'Class 2', 'Max 99, Min 25, Largest gap 25'
