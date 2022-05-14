@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1Hxn_hfZTfYGnkp1LnwCRXLrwucwZpBVz
 """
 
-def scoresort(num, scores)
+def scoresort(num, scores):
     ls = []
     for i in range(num):
         [name, kor, eng, math]= map(str, scores[i].split())
