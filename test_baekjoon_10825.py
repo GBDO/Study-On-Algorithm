@@ -27,5 +27,5 @@ def test_scoresort():
 'Wonseob 70 70 90',
 'Sanghyun 70 70 80',
 'nsj 80 80 80',
-'Taewhan 50 60 90']) == ('Donghyuk','Sangkeun','Sunyoung','nsj','Wonseob'
-                        ,'Sanghyun','Sei','Kangsoo','Haebin','Junkyu','Soong','Taewhan')
+'Taewhan 50 60 90']) == 'Donghyuk','Sangkeun','Sunyoung','nsj','Wonseob'
+                        ,'Sanghyun','Sei','Kangsoo','Haebin','Junkyu','Soong','Taewhan'
