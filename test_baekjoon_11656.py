@@ -20,4 +20,4 @@ def suffix(word):
             result += ls[i] + ' '
 
 def test_suffix():
-    assert suffix(baekjoon) == 'aekjoon baekjoon ekjoon joon kjoon n on oon'
+    assert suffix('baekjoon') == 'aekjoon baekjoon ekjoon joon kjoon n on oon'
