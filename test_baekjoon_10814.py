@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1jpIQ5TLm9bpYsWY2oUQ2ujAvAyv3eBlA
 """
 
-def agesort(num. ages):
+def agesort(num, ages):
     full = []
     for k in range(num):
         full.append(f'{k} {ages[k]}')
