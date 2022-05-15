@@ -19,7 +19,7 @@ def wordsort(num,words):
         if k == (len(ls)-1):
             result += ls[k]
         else:
-            result += ls[k],' '
+            result += ls[k] + ' '
     return result
 
 def test_wordsort():
