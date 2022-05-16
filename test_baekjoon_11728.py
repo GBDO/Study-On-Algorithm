@@ -15,7 +15,12 @@ def union(nums,inputs):
         for k in var:
             ls.append(k)
     ls.sort()
+    result = ''
     for j in range(len(ls)):
-        print(ls[j], end=' ')
+        if j == (len(ls)-1):
+            result += ls[j]
+        else:
+            result += ls[j] + ' '
+    return result
 def test_union():
     assert union('2 1', ['4 7','1']) == '1 4 7'
