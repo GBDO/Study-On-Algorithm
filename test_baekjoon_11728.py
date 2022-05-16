@@ -18,9 +18,9 @@ def union(nums,inputs):
     result = ''
     for j in range(len(ls)):
         if j == (len(ls)-1):
-            result += ls[j]
+            result += str(ls[j])
         else:
-            result += ls[j] + ' '
+            result += str(ls[j]) + ' '
     return result
 def test_union():
     assert union('2 1', ['4 7','1']) == '1 4 7'
