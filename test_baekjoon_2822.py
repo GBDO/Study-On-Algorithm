@@ -22,9 +22,9 @@ def score(xls):
     pr = ''
     for i in range(5):
         if i == 4:
-            pr += result[i]
+            pr += str(result[i])
         else:
-            pr += result[i] + ' '
+            pr += str(result[i]) + ' '
     return sum, pr
 
 def test_score():
