@@ -25,7 +25,7 @@ def score(xls):
             pr += str(result[i])
         else:
             pr += str(result[i]) + ' '
-    return sum, pr
+    return (sum, pr)
 
 def test_score():
-    assert score([20, 30, 50, 48, 33, 66, 0, 64]) == 261, '3 4 5 6 8'
+    assert score([20, 30, 50, 48, 33, 66, 0, 64]) == (261, '3 4 5 6 8')
