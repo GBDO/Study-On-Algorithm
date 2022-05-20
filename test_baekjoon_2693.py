@@ -20,9 +20,9 @@ def nthlarge(num, lss):
                 heapq.heappop(heap)
                 heapq.heappush(heap, i)
         if  k == (num-1):
-            result += result + str(heap[0])
+            result += str(heap[0])
         else:
-            result += result + str(heap[0]) + ' '
+            result += str(heap[0]) + ' '
     return result
 
 def test_nthlarge():
