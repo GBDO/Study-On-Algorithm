@@ -8,7 +8,7 @@ Original file is located at
 """
 
 import heapq
-def nthlarge(num, lss)
+def nthlarge(num, lss):
     num = int(input())
     result = ''
     for k in range(num):
