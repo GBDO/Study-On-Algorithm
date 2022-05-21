@@ -8,7 +8,7 @@ Original file is located at
 """
 
 def binar(num1,exp,num2,tar):
-    exp = list(map(int,exp().split()))
+    exp = list(map(int,exp.split()))
     tar = list(map(int,tar.split()))
     exp.sort()
     result = ''
