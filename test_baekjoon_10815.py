@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1Ck2E1TjiRyH9C4K5-xxo9sds6Qe1S99Z
 """
 
-def binar(inp, tar)
+def binar(inp, tar):
     result = ''
     inp = list(map(int,inp.split()))
     tar = list(map(int,tar.split()))
