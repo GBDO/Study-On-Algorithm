@@ -11,10 +11,10 @@ def binar(num1,exp,num2,tar):
     exp = list(map(int,exp().split()))
     tar = list(map(int,tar.split()))
     exp.sort()
+    result = ''
     for k in tar:
         left, right = 0, len(exp) - 1
         is_find = False
-    result = ''
         while True:
             median = (left + right) // 2
             if k == exp[median]:
@@ -28,6 +28,7 @@ def binar(num1,exp,num2,tar):
             
             if left > right:
                 break
+            
         if not is_find:
             result += '0 '
 
