@@ -21,6 +21,7 @@ def binar(inp, tar):
             else:
                 result += '1 '    
         else:
+            if i == tar[-1]:
                 result += '0'
             else:
                 result += '0 '
