@@ -31,6 +31,7 @@ def binar(num1,exp,num2,tar):
             
         if not is_find:
             result += '0 '
-
+    return result
+    
 def test_binar():
     assert binar(5,'4 1 5 2 3',5,'1 3 7 9 5') == '1 1 0 0 1 '
