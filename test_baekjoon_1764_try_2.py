@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1dEymQ8i-CmyTkcBY2WT8aYqfiYM7omE3
 """
 
-def eqch(lls, sls)
+def eqch(lls, sls):
     result = []
     sls.sort()
     for k in lls:
