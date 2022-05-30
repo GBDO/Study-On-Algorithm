@@ -16,7 +16,7 @@ def stackf(stack,input):
     else:
         comend = x[0]
     if comend == 'push':
-        stack.append(inp)
+        stack.append(int(inp))
     elif comend == 'pop':
         if len(stack) == 0:
             return -1
@@ -31,7 +31,7 @@ def stackf(stack,input):
             return 0
     elif comend == 'top':
         if len(stack) > 0:
-            return stack[-1]
+            return int(stack[-1])
         else:
             return -1
 
@@ -40,5 +40,6 @@ def test_stack():
     result = []
     ls = ['push 1','push 2','top','size','empty','pop','pop','pop','size','empty','pop','push 3','empty','top']
     for k in ls:
-        result.append(stackf(stack,k))
+        if stackf(stack,k):
+            result.append(stackf(stack,k))
     assert result == [2,2,0,2,1,-1,0,1,-1,0,3]
