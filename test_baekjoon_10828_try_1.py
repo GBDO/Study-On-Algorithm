@@ -40,5 +40,5 @@ def test_stack():
     result = []
     ls = ['push 1','push 2','top','size','empty','pop','pop','pop','size','empty','pop','push 3','empty','top']
     for k in ls:
-        result.append(stack, stackf(k))
+        result.append(stackf(stack,k))
     assert result == [2,2,0,2,1,-1,0,1,-1,0,3]
