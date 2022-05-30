@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/17B_apCC6z8Y6Au4U_kU-06VEQWT51onl
 """
 
-def stackf(input):
+def stackf(stack,input):
     comend = ''
     inp = 0
     x = list(input.split())
