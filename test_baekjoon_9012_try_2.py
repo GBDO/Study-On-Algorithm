@@ -24,6 +24,7 @@ def VPS(tarls):
         if len(temp) == 0:
             result += "YES "
         else: result += "NO "
+        return result
 
 tarls = ['(())())','(((()())()','(()())((()))','((()()(()))(((())))()','()()()()(()()())()','(()((())()(']
 
