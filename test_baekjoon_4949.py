@@ -25,7 +25,7 @@ def balance(ch,result):
             result += 'yes '
         else:
             result += 'no '
-    return result
+            
 
 def test_balance():
     ch = [
