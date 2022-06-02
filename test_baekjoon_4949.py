@@ -39,5 +39,5 @@ def test_balance():
     ]
     result = ''
     for inp in ch:
-        balance(inp)
+        balance(inp,result)
     assert  result == 'yes yes no no no yes yes '
