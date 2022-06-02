@@ -23,10 +23,10 @@ def balance(inp):
             if len(stack) == 0 or '[' != stack.pop():
                 flag = 1
                 break
-        if flag == 0 and len(stack) == 0:
-            return 'yes '
-        else:
-            return 'no '
+    if flag == 0 and len(stack) == 0:
+        return 'yes '
+    else:
+        return 'no '
 
 
 def test_balance():
