@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1ze1qed9OKzbvNSd_TKD5k2TAFZkCpVX3
 """
 
-def balance(ch,result):
+def balance(ch):
     stack = [] 
     flag = 0
     for c in ch:
@@ -22,10 +22,10 @@ def balance(ch,result):
             if len(stack) == 0 or '[' != stack.pop():
                 flag = 1
         if flag == 0 and len(stack) == 0:
-            result += 'yes '
+            return 'yes '
         else:
-            result += 'no '
-            
+            return 'no '
+
 
 def test_balance():
     ch = [
@@ -39,5 +39,5 @@ def test_balance():
     ]
     result = ''
     for inp in ch:
-        balance(inp,result)
+        result += balance(inp)
     assert  result == 'yes yes no no no yes yes '
