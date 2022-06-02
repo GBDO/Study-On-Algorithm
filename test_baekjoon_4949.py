@@ -18,9 +18,11 @@ def balance(inp):
         elif c == ')':
             if len(stack) == 0 or '(' != stack.pop():
                 flag = 1
+                break
         elif c == ']':
             if len(stack) == 0 or '[' != stack.pop():
                 flag = 1
+                break
         if flag == 0 and len(stack) == 0:
             return 'yes '
         else:
@@ -34,7 +36,8 @@ def test_balance():
     'Half Moon tonight (At least it is better than no Moon at all].',
     'A rope may form )( a trail in a maze.',
     'Help( I[m being held prisoner in a fortune cookie factory)].',
-    '([ (([( [ ] ) ( ) (( ))] )) ]).'
+    '([ (([( [ ] ) ( ) (( ))] )) ]).',
+    ' .'
     ]
     result = ''
     for inp in ch:
