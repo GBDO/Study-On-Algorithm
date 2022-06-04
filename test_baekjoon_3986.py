@@ -30,4 +30,4 @@ def test_check():
         if check(data):
             result += 1
 
-    assert result = 2
+    assert result == 2
