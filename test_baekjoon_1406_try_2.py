@@ -12,7 +12,7 @@ def editor(inp, n, ls):
     stack_l = list(inp)
     stack_r = []
 
-    for i in ls):
+    for i in ls:
         command = i.split()
 
         if command[0] == "L" and stack_l:
