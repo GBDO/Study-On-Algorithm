@@ -54,7 +54,8 @@ def deck(rep, ls):
                 result += '-1 '
             else:
                 result += str(que[-1])+' '
-
+    return result
+    
 def test_deck():
     ls = ['push_back 1','push_front 2','front','back','size','empty','pop_front','pop_back','pop_front','size','empty','pop_back','push_front 3','empty','front']
     assert deck(15,ls) == '2 1 2 0 2 1 -1 0 1 -1 0 3 '
