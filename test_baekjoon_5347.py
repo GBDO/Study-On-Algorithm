@@ -20,7 +20,7 @@ def test_solution():
     inps = ['15 21','33 22','9 10']
     for rep, inp in zip(range(3), inps): 
         solution(inp)
-        if (rep+1) == len(inps)
+        if (rep+1) == len(inps):
             result += str(solution(inp))
         else:
             result += str(solution(inp)) + " "
